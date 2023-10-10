@@ -1,0 +1,36 @@
+.profile-navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #1e263d;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 20px;
+	border-bottom:2px solid #fcc200;
+}
+
+.profile-nav-tab-box{
+	display: flex;
+
+}
+.profile-nav-tab :hover{
+	color: black;
+}
+.profile-nav-tab{
+	color: #fff;
+	font-size: 1vw;
+}
+.noactive-profile-nav-tab{
+	color: #fff;
+	font-size: 18px;	
+}
+.profile-nav-tab-box .NavLink-box{
+margin: 0 10px;
+
+}
+
+.active .profile-nav-tab{
+	
+	font-weight: 700;
+}

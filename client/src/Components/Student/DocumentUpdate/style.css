@@ -1,0 +1,46 @@
+.form-modal-wrapper{
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.update-photo-modal-container{
+   width: 300px;
+   height: 340px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 25px 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #1f1b1f;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-preview img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.upload-photo-btn{
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background-color: #dc3545; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.upload-photo-btn:hover {
+    background-color: #c62e3d; /* Hover background color */
+  }

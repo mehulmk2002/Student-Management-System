@@ -1,0 +1,5 @@
+.student_profile_section-box{
+ 
+    height: calc(100vh - 145px);
+    overflow-y: auto;
+}

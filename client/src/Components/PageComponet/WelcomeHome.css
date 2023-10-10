@@ -1,0 +1,53 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  .animation-wrapper {
+    text-align: center;
+  }
+  
+  .animate .animation-wrapper {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .center-text {
+    font-size: 2rem;
+    color:#c70039 ;
+  }
+  
+  .blast-flower {
+    width: 600px;
+    height: 100px;
+    background: radial-gradient(circle,  #1e14d1, #64b3f4, transparent);
+
+    animation: blast 3s ease-in-out infinite;
+  }
+  
+  @keyframes blast {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.8);
+      opacity: 1;
+    }
+  }
+  

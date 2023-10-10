@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+}
+
+.form-categori-lable {
+    text-align: left;
+    color: blueviolet;
+}
+label
+{
+    font-weight: bolder;
+}
+hr{
+    border-color: blueviolet;
+    margin: 0px;
+}
+.form-row
+{
+    margin-top: 10px;
+}
+
+button{
+    margin: 0 5px;
+}
+
+
+.form-container{
+    width: 450px;
+   
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px 25px;
+}
+
+.form-box form label{
+    display: inline-block;
+    margin-top: 8px;
+}
+.form-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.form-container .form-box{
+width: 100%;
+}
+
+form input,select{
+    width: 100%;
+    height: 30px;
+}
+
+.error{
+    color: #ff0000;
+    
+}
+
+.test{
+   color: #ffc300;
+   color: #c70039;
+   color: #f5d107;
+   color: #d61805;
+}
+
+
+
+
+
+
+.student-search-box{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+
+.student-search-card{
+        cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    width: 250px;
+    height: fit-content;
+    border-left: 6px solid #0a45e7;
+    border-radius: 8px;
+     padding: 20px 5px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.student-search-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.student-search-img-box img{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+form{
+    text-align: left;
+}

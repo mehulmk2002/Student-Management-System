@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fee Receipt</title>
+    
+   
+    <style>
+      body {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        margin: auto;
+        width: 620px;
+        margin-top: 25px;
+      }
+      h1 {
+        color: yellow;
+      }
+      tr,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .institute-title {
+        font-family: 'Berlin Sans FB Demi', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .sub-header-detail {
+        font-family: 'Lucida Handwriting Std', sans-serif;
+        text-align: center;
+        font-size: 12px;
+      }
+      .receipt-number-date-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .receipt-title,
+      .sub-receipt-title {
+        border: 1px solid #000;
+      }
+
+      .name-container,
+      .course-container,
+      .rupees-container {
+        display: flex;
+        margin: 2px 0;
+      }
+
+      .info-box {
+        border: 1px solid #000;
+        padding: 1px 10px;
+        margin: 0 40px;
+      }
+
+      .amount-seal {
+        margin-top: 20px;
+        display: flex;
+      }
+      .amount-in-number {
+        display: flex;
+        width: 200px;
+        border: 1px solid #000;
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+      .seal-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        text-align: center;
+        width: 310px;
+        font-size: 14px;
+      }
+      .bottom-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td align="center" colspan="3" class="institute-title">
+            MEET COMPUTER TRAINING CENTER
+        </td>
+      </tr>
+      <tr>
+        <td class="sub-header-detail" colspan="3">
+          <div>Associated with GCTI</div>
+          <div>Organize by UECT, Regd. By Govt. Of India</div>
+          <div style="font-weight: 700">
+            Regd. By Govt. of India N.C.T. New Delhi Reg No. 2820, India
+          </div>
+          <div>Regd. By Govt Of Gujarat, India</div>
+        </td>
+      </tr>
+      <tr> 
+        <td colspan="3">
+          <div class="receipt-number-date-container">
+            <div>Receipt Numuber: <%= payment_id %></div>
+            <div>Date: <%= payment_date %></div>
+          </div>
+
+          <div class="name-container">
+            <div>Name:</div>
+            <div class="info-box">
+              <%= first_name %> <%= middle_name %> <%= last_name %>
+            </div>
+          </div>
+
+          <div class="course-container">
+            <div>Course:</div>
+            <div class="info-box">
+              <%= course_name %> [<%= course_duration %> Month]
+            </div>
+          </div>
+
+          <div class="rupees-container">
+            <div>The sum of Rupees:</div>
+            <div style="text-transform: capitalize" class="info-box">
+              <%= numberInWords %> only
+            </div>
+          </div>
+
+          <div class="amount-seal">
+            <div>
+              <div class="amount-in-number">
+                <div style="border-right: 1px solid #000; padding: 2px 4px 2px 50px;">
+                  RS
+                </div>
+                <div style="padding: 2px 4px 2px 4px;"><span>₹ </span><%= payment_amount %>.00</div>
+              </div>
+              <ol style="font-size: 12px">
+                <li>Cheque Subject to Realization.</li>
+                <li>This receipt issued against fees paid by Student.</li>
+                <li>Paid fees is not refundable in any circumstances.</li>
+              </ol>
+            </div>
+            <div class="seal-box">
+              <div>
+                <div>For, Authorized Training Center</div>
+                <div>[Seal & Sign]</div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+
+      <tr >
+        <td style="padding: 0 4px;">Course Fees: <%= course_fee %></td>
+        <td style="padding: 0 4px;">Paid Fees: <%= given_fee %></td>
+        <td style="padding: 0 4px;">Remain Fees: <%= reamin_fee %></td>
+      </tr>
+
+      <tr>
+        <td colspan="3" style="height: 24px">
+          <div class="bottom-footer">
+            <div>https://mctcdnh.in</div>
+            <div>mctcdnh@gmail.com</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

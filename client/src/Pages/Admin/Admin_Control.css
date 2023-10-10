@@ -1,0 +1,40 @@
+.sub-admin-box{
+    display: flex;
+    justify-content: end;
+}
+
+.admin_control_right_section{
+    height: calc(100vh - 150px);
+    width:         calc(100% - 280px);
+}
+.FaBars-bar{
+    color:'#ffff'
+}
+.FaBars-bar:hover{
+color: yellow;
+}
+
+.admin_control_right_section_with_nomargin{
+    height: calc(100vh - 150px);
+    width:         calc(100% );
+    
+}
+.top-header-navbar{
+    width: 94%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px 10px;
+}
+.logout-btn{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    height: fit-content;
+    float: rights;
+}
+.logout-btn:hover {
+    color: rgb(233, 8, 86); 
+    border: 2px solid rgb(233, 8, 86);
+}
+

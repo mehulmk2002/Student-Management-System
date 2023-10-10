@@ -1,0 +1,50 @@
+.form-modal-wrapper{
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+background-color: rgba(0,0,0,0.5);
+}
+
+.form-modal-container{
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 70vw;
+background-color: #fff;
+padding: 10px;
+border-radius: 8px;
+
+}
+.tran-form-modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    
+    }
+
+.container{
+overflow-y: auto;
+}
+.cd-modal-form-container{
+    width: 450px;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px 70px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+   
+    border-radius: 8px;
+    
+}

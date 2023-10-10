@@ -1,0 +1,27 @@
+.home-info-container{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 50px;
+}
+.title-disc-container{
+    font-size: 35px;
+    padding: 5px 0;
+    border-bottom: 2px solid #f4a003;
+}
+
+
+.disc-container{
+    padding: 10px 5px;
+    width: 60%;
+    font-size: 25px;
+}
+
+
+.image-container img{
+height: 400px;
+width: 400px;
+}

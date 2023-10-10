@@ -1,0 +1,12 @@
+.aboutus-image-sec{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.image-aboutus img{
+    height: 320px;
+    width: 320px;
+}

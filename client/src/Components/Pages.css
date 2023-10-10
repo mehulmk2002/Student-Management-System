@@ -1,0 +1,239 @@
+.table-box{
+    width: 100%;
+}
+.table-container{
+    margin: auto;
+}
+
+.viewer_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.student_profile_back{
+  overflow-y: auto;
+  height: 90vh;
+width: 100%;
+
+
+/* padding:5px;width:150px;height:200px;border:1px solid black; */
+}
+.table-box{
+  margin: 5px 10px;
+    overflow-x: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 15px;
+    width: 90%;
+    overflow: scroll;
+    margin: auto;
+  }
+  
+  th, td {
+    /* border: 1px solid #272626; */
+    padding: 8px;
+    width: fit-content;
+  }
+  
+  th {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e0dbdb;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  th{
+    font-size: 14px;
+  }
+  td{
+    font-size: 14px;
+    width: fit-content;
+  }
+  tr{
+    height: 30px;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .filter-box{
+width: 88%;
+margin: 10px auto;
+height:fit-content;
+border: 2px solid #bbb9be;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+  }
+
+  
+  .filter-box-border{
+    width:fit-content;
+   
+    height:fit-content;
+    border: 2px solid #bbb9be;
+    border-radius: 10px;
+      }
+
+
+  b{
+    color: #f5d107,
+    #ffc300,
+    #c70039,
+    #d61805;
+  }
+
+
+
+  /* Reciept*/
+  .receipt-box{
+    width: 100%;
+    height: 300px;
+    border: 2px solid #000;
+  }
+
+  .receipt-title{
+    width: 100%;
+    height: fit-content;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    /* border-bottom: 2px solid #000; */
+    text-align: center;
+  }
+  .sub-receipt-title{
+    width: 100%;
+    height: fit-content;
+    /* border-bottom: 2px solid #000; */
+    text-align: center;
+  }
+
+  .table-margin{
+    margin: 5px auto;
+    width: 96%;
+    overflow-x: auto;
+  }
+
+.download-generate-idcard-box{
+  display: flex;
+  justify-content: center;
+}
+ .generate-idcard-btn{
+  background-color: #ffc300;
+  width: 200px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 3px;
+  cursor:pointer;
+ } 
+
+ .download-idcard-btn{
+  background-color: #1cb414;
+  width: 200px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 3px;
+  cursor: pointer;
+ } 
+ .download-idcard-btn:hover {
+  background-color: #45a049; 
+}
+
+.generate-idcard-btn:hover {
+  background-color: #ffaa00;
+}
+
+
+
+.add-btn-box{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.add-btn{
+width: 175px;
+padding: 5px 15px;
+font-size: 22px;
+background-color: rgb(54, 56, 54);
+color: #fff;
+margin: auto;
+border-radius: 5px;
+}
+
+
+.export-btn{
+      width: 140px;
+      padding: 5px 15px;
+      font-size: 22px;
+      background-color: rgb(189, 17, 14);
+      color: #fff;
+      margin: auto;
+      border-radius: 5px;   
+      cursor: pointer;
+}
+.sort-by-date{
+  display: flex;
+  align-items: center;
+}
+
+.inquieryconfirm-btn{
+  cursor: pointer;
+  width: fit-content;
+  color: 2px solid blueviolet;
+  border-radius: 8px;
+  margin: 0 2px;
+  font-size: 22px;
+}
+
+.inquieryconfirm-btn:hover {
+  color: 2px solid rgb(14, 189, 75);
+}
+
+.inquieryDelete-btn{
+  cursor: pointer;
+  font-size: 22px;
+  margin: auto 10px;
+  text-align: center;
+  color: 2px solid rgb(231, 119, 7);
+}
+
+.inquieryDelete-btn:hover {
+  color: 2px solid rgb(189, 14, 14);
+  /* background-color: rgba(189, 17, 14, 0.2);  */
+}
+.inquieryEdit-btn{
+  color: rgb(59, 15, 220);
+  cursor: pointer;
+  
+  font-size: 22px;
+  text-align: center;
+}
+.inquieryEdit-btn:hover{
+  color: 2px solid rgb(7, 6, 113);
+}
+
+
+button{
+  margin: 0 10px;
+}
+
+
+option {
+  padding: 50px 0;
+}
