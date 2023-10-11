@@ -22,19 +22,19 @@ const User_Courses = () => {
 {
     cources.map((data)=>(
         <div>
-        <div class="card" style={{width: "18rem",padding:'10px'}}>
-                <img class="card-img-top" src={data.image_url} alt="Card image cap" style={{height:'180px'}} />
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">{data.course_description}</p>
+        <div className="card" style={{width: "18rem",padding:'10px'}}>
+                <img className="card-img-top" src={data.image_url} alt="Card image cap" style={{height:'180px'}} />
+                <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">{data.course_description}</p>
                 </div>
                 
-                <div class="card-footer" style={{display:'flex'}}>
-                    <label class="card-link" style={{fontWeight:'400'}}>Duration {data.course_duration}</label>
+                <div className="card-footer" style={{display:'flex'}}>
+                    <label className="card-link" style={{fontWeight:'400'}}>Duration {data.course_duration}</label>
                 </div>
-            <div class="card-footer" style={{display:'flex',alignItems:'center'}}>
-                <label class="card-link">Price:<span style={{color:'red'}}>{data.course_price}/-</span></label>
-                <label type="button" class="btn btn-info card-link" style={{fontWeight:'400'}}>Details</label>
+            <div className="card-footer" style={{display:'flex',alignItems:'center'}}>
+                <label className="card-link">Price:<span style={{color:'red'}}>{data.course_price}/-</span></label>
+                <label type="button" className="btn btn-info card-link" style={{fontWeight:'400'}}>Details</label>
             </div>
 
         </div>
